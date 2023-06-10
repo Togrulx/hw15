@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.first{
+    margin-top: 40px;
+}
+input{
+    outline: none;
+    padding: 5px 30px;
+
+}
+button{
+    outline: none;
+    padding: 6px 30px  ; 
+    border-radius: 6px;
+    background-color: rgb(13, 203, 13);
+    color: #FFF;
+    border: 1px solid rgb(13, 203, 13);
+}
+
+#Result{
+    font-weight: bold;
+    font-size: 26px;
+
+}
+#Test {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 20px;
+  }
+#Size{
+    margin-top: 10px;
+}
