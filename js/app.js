@@ -3,7 +3,7 @@ function Sum() {
     let num2 = parseInt(document.getElementById("num2").value);
 
     if (isNaN(num1) || isNaN(num2)) {
-        document.getElementById("Result").innerHTML = "Please,enter the number.";
+        document.getElementById("Result").innerHTML = "Enter the number.";
         return;
     }
 
@@ -14,10 +14,8 @@ function Sum() {
     for (let i = start; i <= end; i++) {
         sum += i;
     }
-    document.getElementById("Result").innerHTML = "Cəm: " + sum;
+    document.getElementById("Result").innerHTML = "Result: " + sum;
 }
-
-
   function Size() {
     let element = document.getElementById("Test");
     let Widths = element.offsetWidth;
